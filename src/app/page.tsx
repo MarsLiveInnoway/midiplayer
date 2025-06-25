@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import Player from 'midi-player-js';
+import { Player } from 'midi-player-js';
 
 export default function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
